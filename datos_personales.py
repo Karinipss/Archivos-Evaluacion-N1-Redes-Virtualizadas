@@ -1,0 +1,17 @@
+print("=" * 55)
+print("INGRESO DE DATOS DEL ESTUDIANTE")
+print("=" * 55)
+
+nombre = input("Ingrese su nombre: ").strip()
+apellido = input("Ingrese su apellido: ").strip()
+codigo_seccion = input("Ingrese el código-sección: ").strip()
+sede = input("Ingrese la sede: ").strip()
+
+print("\n" + "=" * 55)
+print("INFORMACIÓN REGISTRADA")
+print("=" * 55)
+print(f"Nombre          : {nombre}")
+print(f"Apellido        : {apellido}")
+print(f"Código-sección  : {codigo_seccion}")
+print(f"Sede            : {sede}")
+print("=" * 55)
